@@ -1,5 +1,5 @@
 // added the ability to display the current time and set that current time display on the currentday id in HTMl doc
-// Time will be updated every second as to maintain accuracy 
+        // Time will be updated every second as to maintain accuracy 
 var updateTime = function(){
     $('#currentDay').text(moment().format("dddd MMMM, MM YYYY h:mm:ss a"));
 }
